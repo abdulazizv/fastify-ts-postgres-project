@@ -39,5 +39,5 @@
     ```
 
 ```zsh
-for completely checking need to add handly one or two user to table  
+for completely checking need to add handly one or two user to table. When you run the command npm run migrate, this command automatically create new table on the db.
 ```
