@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"rootDir": "",
+		"outDir": "dist",
+		"noImplicitAny": true,
+		"module": "CommonJS",
+		"target": "es2022",
+		"lib": ["es2022"],
+		"allowJs": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"esModuleInterop": true,
+		"declaration": true,
+		"removeComments": false,
+		"types": ["node"],
+		"resolveJsonModule": true,
+		"baseUrl": "",
+		"paths": {
+			"@/*": ["*"],
+			"@core/*": ["src/core/*"],
+			"@package": ["package.json"],
+			"@config": ["src/init/config"],
+			"@logger": ["src/init/logger"],
+			"@interfaces": ["src/interfaces"],
+			"@database/*": ["src/init/database/*"],
+			"@messagebroker/*": ["src/init/messagebroker/*"],
+			"@utils/*": ["src/utils/*"],
+			"@public": ["src/public"]
+		}
+	}
+}
